@@ -53,14 +53,20 @@ public class SaveManager : MonoBehaviour
         PlayerPrefs.DeleteKey("x");
         PlayerPrefs.DeleteKey("y");
         PlayerPrefs.DeleteKey("z");
-    }
-
-    public void Bandera()
-    {
-        //spawnPoint = flag.transform.position;
-        Save();
         
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("CheckPoint"))
+        {
+            Debug.Log("Bandera");
+            Save();
+            
+        }
+    }
+
+  
 
 
 }

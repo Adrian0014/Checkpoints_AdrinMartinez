@@ -2002,7 +2002,6 @@ GameObject:
   - component: {fileID: 1736211423}
   - component: {fileID: 1736211424}
   - component: {fileID: 1736211425}
-  - component: {fileID: 1736211426}
   - component: {fileID: 1736211427}
   m_Layer: 0
   m_Name: Player
@@ -2070,18 +2069,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &1736211426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736211422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ebb40fe34cb1e546bfd7314eff21d94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1736211427
 MonoBehaviour:
   m_ObjectHideFlags: 0
